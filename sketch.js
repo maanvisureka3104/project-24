@@ -102,7 +102,7 @@ function keyPressed(){
   else if(keyCode==LEFT_ARROW){
     player.move(-2,0);
   }
-  else if(keyCode==RIGHR_ARROW){
+  else if(keyCode==RIGHT_ARROW){
     player.move(2,0);
   }
   translate(0,-player.spt.y-height+150);
